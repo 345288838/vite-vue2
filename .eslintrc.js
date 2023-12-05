@@ -5,8 +5,8 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/recommended',
-    'eslint:recommended',
+    'plugin:vue/recommended', //实际上使用的是 eslint-plugin-vue 插件，recommended 是配置名
+    'eslint:recommended', //eslint 官方的扩展 ESLint 内置的推荐规则 eslint:all ESLint 内置的所有规则
     //避免与 prettier 冲突
     'plugin:prettier/recommended'
   ],
